@@ -46,6 +46,10 @@ a {
     font-size: 40;
 }
 
+.intro-section h3 {
+  padding-bottom: 15px;
+}
+
 .bio-section, .resume-head {
     background-color: #f8f8f8;
     margin-bottom: 10px;
@@ -507,3 +511,7 @@ a {
     top: 0px;
   }
   
+  #resume {
+    margin-bottom: 0;
+    
+  }
