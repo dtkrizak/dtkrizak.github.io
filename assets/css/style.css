@@ -5,7 +5,6 @@ body {
     font-size: 1.0rem;
     /*font-family: "Fira Sans", sans-serif;*/
     font-family: Montserrat, Arial, sans-serif;
-
     color: #635e5e;
     background-color: #f8f8f8;
 }
@@ -38,7 +37,8 @@ a {
 }
 
 .intro-section {
-    background-color: #0d0d5a;
+    background-color: #5a96b0;
+    /*background-color:#0d0d5a;*/
     color:#fff; 
 }
 
@@ -467,6 +467,7 @@ a {
 
   .contact-section {
     padding-bottom: 30px;
+    text-align: center;
   }
 
   .row .col-md-3 {
