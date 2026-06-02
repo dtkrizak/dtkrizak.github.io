@@ -1,305 +1,471 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile Website | Daniel Krizak</title>
-    <meta name="keywords" content="Entry Level Web developer, software developer, researcher, Mississippi State University">
-    <meta name="description" content="Daniel T. Krizak is a self-taught web/software developer with a background in Chemical Engineering, looking for any available opportunities to start his career in technology after recently pivoting from the chemical industry.">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:900|Raleway:300">
-    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link type="text/css" rel="stylesheet" href="assets/css/scrolling-nav.css">
-    <link type="text/css" rel="stylesheet" href="assets/css/style.css">
-    <link type="text/css" rel="stylesheet" href="assets/css/reset.css">
-    <script type="text/javascript" src="assets/js/modernizr.js"></script>
-</head>
-<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
-<body id="page-top" data-spy="scroll" data-target=".navbar fixed-top">
-    
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <!-- container div -->
-      <div class="container">
-        <div class="navbar-header page-scroll">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand page-scroll" href="#page-top">Daniel Krizak</a>
-        </div>
-       
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#bio">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#resume">Resume</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        
-      </div>
-      <!--/ container -->
-      
-    </nav>
-    
-    <!-- Intro Section -->
-    <section id="intro" class="intro-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Daniel T. Krizak</h1>
-                    <h3>Web and Software Development</h3> 
-                    <a class="btn btn-default page-scroll" href="#bio">Short Bio</a>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Daniel Krizak — Appian Solution Consultant</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+            rel="stylesheet"
+        />
+        <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+    </head>
+    <body>
+        <!-- NAV -->
+        <nav>
+            <a href="#hero" class="nav-logo">DK<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- HERO -->
+        <section
+            id="hero"
+            style="max-width: 100%; padding-left: 4rem; padding-right: 4rem"
+        >
+            <div class="hero-grid-bg"></div>
+            <div class="hero-glow"></div>
+            <div class="hero-content">
+                <p class="hero-tag">// Certified Appian Lead Developer</p>
+                <h1 class="hero-name">
+                    Daniel<br />
+                    <span class="accent-line">Krizak.</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Building high-performance Appian solutions with a focus on
+                    technical leadership, system architecture, and streamlined
+                    delivery.
+                </p>
+                <div class="hero-ctas">
+                    <a href="#experience" class="btn-primary"
+                        >View Experience →</a
+                    >
+                    <a
+                        href="https://www.linkedin.com/in/daniel-krizak-6ab025115"
+                        target="_blank"
+                        class="btn-ghost"
+                        >LinkedIn ↗</a
+                    >
+                    <a
+                        href="https://github.com/dtkrizak"
+                        target="_blank"
+                        class="btn-ghost"
+                        >GitHub ↗</a
+                    >
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-num">2<span>+</span></div>
+                        <div class="stat-label">Years Appian</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-num">25<span>K</span></div>
+                        <div class="stat-label">Users Impacted</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-num">20<span>K</span></div>
+                        <div class="stat-label">Daily Transactions</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-num">6</div>
+                        <div class="stat-label">Appian Versions</div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="headshot">
-          <img id="headshot1" src="assets/img/Daniel-sama-13.JPG" alt="Daniel Krizak at Mississippi State University">
-          <p>Photo by Ravi Patel</p>
-        </div>
-    </section>
+        </section>
 
-    <!-- Bio section -->
-    <section id="bio" class="bio-section">
-        <div class="container">
-          <div class="row">
-          <div class="col-lg-2"></div>
-            <div class="col-lg-8">
-            <h1 class="bio-head">Short Bio</h1>
-              <p>I have earned both a Bachelors and a Masters in Chemical Engineering from Mississippi State University. 
-                I am a self-taught programmer and have taken the opportunity to learn new skills for Web Development by completing 
-                courses on Codecademy and Khan Academy.</p>
-  
-              <p>In the midst of completing my graduate degree, I discovered the part of my project that I enjoyed most was using my coding skills to develop automated tasks in the lab. I've always been happy to 
-               to help family and friends with tech questions and am always looking for ways to leverage the use of technology in my everyday life.</p>
+        <!-- ABOUT -->
+        <section id="about">
+            <div class="reveal">
+                <p class="section-label">// 01 — About</p>
+                <h2 class="section-title">
+                    Appian specialist<br />with an engineering mind.
+                </h2>
             </div>
-            <div class="col-lg-2"></div>
-          </div>
-        </div>
-      </section>
-      <!--/ Bio Section -->
-  
-      <!-- Resume Section -->
-  
-    <section id="resume" class="cd-horizontal-timeline">
-    <h1 class="resume-head">Resume</h1>
-    <div class="timeline">
-      <div class="events-wrapper">
-        <div class="events">
-          <ol>
-            <!-- Removed for legibility
-              <li><a href="#0" data-date="01/08/2008" class="selected">Aug 2008</a></li>
-             -->
-            <li><a href="#0" data-date="01/08/2011" class="selected">Aug 2011</a></li>
-            <!-- Removed 
-            <li><a href="#0" data-date="01/03/2012">Mar 2012</a></li>
-            -->
-            <li><a href="#0" data-date="01/08/2012">Aug 2012</a></li>
-            <li><a href="#0" data-date="01/08/2014">Aug 2014</a></li>
-            <li><a href="#0" data-date="01/05/2015">May 2015</a></li>
-            <li><a href="#0" data-date="01/06/2016">Jun 2016</a></li>
-            <li><a href="#0" data-date="01/09/2016">Aug 2016</a></li>
-            <li><a href="#0" data-date="01/08/2017">Aug 2017</a></li>
-            <li><a href="#0" data-date="01/07/2018">Jul 2018</a></li>
-            <li><a href="#0" data-date="01/05/2019">May 2019</a></li>
-            <li><a href="#0" data-date="01/08/2020">Aug 2020</a></li>
-          </ol>
-  
-          <span class="filling-line" aria-hidden="true"></span>
-        </div> <!-- .events -->
-      </div> <!-- .events-wrapper -->
-        
-      <ul class="cd-timeline-navigation">
-        <li><a href="#0" class="prev inactive">Prev</a></li>
-        <li><a href="#0" class="next">Next</a></li>
-      </ul> <!-- .cd-timeline-navigation -->
-    </div> <!-- .timeline -->
-  
-    <div class="events-content">
-      <ol>
-        <!-- Removed for legibility
-        <li class="selected" data-date="01/08/2008">
-          <h1>High School</h1>
-          <em>August, 2008</em>
-          <p>Attended St. Thomas High School in Houston, TX</p>
-        </li>
-        -->
-  
-        <li class="selected" data-date="01/08/2011">
-          <h1>Started Coding</h1>
-          <em>August, 2011</em>
-          <p>My first introduction to coding was a Java course I took in high school.
-          </p>
-        </li>
-        
-        <!-- Removed 
-        <li data-date="01/03/2012">
-          <h1>HP Code Wars</h1>
-          <em>March 2012</em>
-          <p>I joined a group of programmers in high school to compete in HP Code Wars. Though we didn't win, it was s great experience to code with others.
-          </p>
-        </li>
-        -->
-  
-        <li data-date="01/08/2012">
-          <h1>University - Bachelors</h1>
-          <em>August, 2012</em>
-          <p>
-            Attended Mississippi State University, majoring in Chemical Engineering. <!--and putting coding on the backburner.-->
-          </p>
-        </li>
-  
-        <li data-date="01/08/2014">
-          <h1>Engineering Internship 1</h1>
-          <em>August, 2014</em>
-          <p> 
-            Interned at ExxonMobil Chemical in Baytown, TX in the Technology Licensing Department, assisting on an expansion project.
-          </p>
-        </li>
-  
-        <li data-date="01/05/2015">
-          <h1>Engineering Internship 2</h1>
-          <em>May, 2015</em>
-          <p> 
-            Interned at ExxonMobil Chemical in Baytown, TX in the Slurry Platform / Compounding / Non-wovens
-            Polymers Product & Applications Development Department, investigating changes to additives.
-          </p>
-        </li>
-  
-        <li data-date="01/06/2016">
-          <h1>University - Doctorate</h1>
-          <em>June, 2016</em>
-          <p> 
-            Started the PhD program in Chemical Engineering at Mississippi State University, working in a soft
-             materials research group.
-          </p>
-        </li>
-  
-        <li data-date="01/09/2016">
-          <h1>Rediscovered Coding</h1>
-          <em>August, 2016</em>
-          <p> 
-            Took a course in Advanced Process Computations, where the final project involved constructing a basic
-             molecular dynamics simulation of 200 inert molecules using FORTRAN.
-            <a href="https://github.com/dtkrizak/MD-project" target="_blank">(Project available on GitHub)</a>
-            This project introduced me to FORTRAN, leading to the implementation of more coding/automation
-             in my graduate research project.
-          </p>
-        </li>
-
-        <li data-date="01/08/2017">
-            <h1>Coding Course</h1>
-            <em>August, 2017</em>
-            <p> 
-              Took the course Numerical Methods for Chemical Engineering Applications, where various mathematical 
-              techniques, such as the Runge-Kutta method, were applied to different systems, such as a continuously stirred 
-              tank reactor (CSTR), using FORTRAN.
-              <a href="https://github.com/dtkrizak/numerical-methods" target="_blank">(Example project on GitHub)</a>
-            </p>
-          </li>
-  
-        <li data-date="01/07/2018">
-          <h1>Process Automation</h1>
-          <em>July, 2018</em>
-          <p>
-            Automated the fabrication process for Reverse Osmosis (RO) membranes using LabView, 
-            modeled after the work by Dr. Edwin P. Chan at the National Institute of Science and Technology.
-            <a href="https://github.com/dtkrizak/automatedSpinCoater" target="_blank">(Project available on GitHub)</a> 
-            
-          </p>
-        </li>
-  
-        <li data-date="01/08/2018">
-          <h1>Data Collection</h1>
-          <em>August, 2018</em>
-          <p>
-            After fabricating the RO membranes, their perfomance is tested by forcing water through them and calculating the flow rate through the membrane. I automated this process using a scale, 
-            Excel, and VBA. <a href="https://github.com/dtkrizak/data-collection-xlsx" target="_blank">(Project available on GitHub)</a>
-          </p>
-        </li>
-
-        <li data-date="01/05/2019">
-            <h1>Thermodynamics Calculations</h1>
-            <em>May, 2019</em>
-            <p>
-              As part of my Research Assistanceship, I created a FORTRAN program to calculate thermodynamic properties of different molecules.
-               After creating the program, I learned Python to translate it from FORTRAN.
-            </p>
-          </li>
-  
-        <li data-date="01/08/2020">
-          <h1>Web Development</h1>
-          <em>August, 2020</em>
-          <p>
-            During this time I realized that I needed to pursue my passion for coding. I used tools such as Khan Academy and 
-            Codecademy to learn HTML/CSS, Javascript and more. 
-          </p>
-        </li>
-      </ol>
-    </div> <!-- .events-content -->
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-      <div class="container">
-        <div class="row">
-        <div class="col-lg-2"></div>
-          <div class="col-lg-8">
-            <h1 class="contact-head">Contact Me</h1>
-  
-              <div class="row, contacts">
-                <div class="col-md-3">
-                  <address>
-                    <a href="mailto:dtk28@icloud.com">dtk28@icloud.com</a><br>
-                  </address>
+            <div class="about-grid reveal">
+                <div class="about-text">
+                    <p>
+                        I'm a <strong>Appian Solution Consultant</strong> with a
+                        strong background in designing, developing, and
+                        deploying enterprise-scale applications. My work spans
+                        the full delivery lifecycle — from architecture and
+                        integration design through to deployment, incident
+                        resolution, and team leadership.
+                    </p>
+                    <p>
+                        My foundation in
+                        <strong>Chemical Engineering</strong> gives me a sharp
+                        analytical edge. I approach complex systems with the
+                        same rigor I'd apply to any engineering problem:
+                        decompose, optimize, document, and iterate.
+                    </p>
+                    <p>
+                        Outside of Appian, I'm comfortable working across the
+                        stack — from SQL and backend integrations to frontend
+                        interfaces and automation tooling. I've leveraged
+                        <strong>local LLMs</strong> to build internal dev tools
+                        and automated SQL validation pipelines while maintaining
+                        strict data privacy standards.
+                    </p>
+                    <div class="about-links">
+                        <a
+                            href="https://www.linkedin.com/in/daniel-krizak-6ab025115"
+                            target="_blank"
+                            class="link-pill"
+                            >in LinkedIn</a
+                        >
+                        <a
+                            href="https://github.com/dtkrizak"
+                            target="_blank"
+                            class="link-pill"
+                            >⌥ GitHub</a
+                        >
+                    </div>
                 </div>
-
-                <div class="col-md-3">
-                  <address>
-                    <a href="tel:+18329302191">(832) 930-2191</a>
-                  </address>
+                <div class="about-sidebar">
+                    <div class="about-card">
+                        <div class="about-card-title">Education</div>
+                        <div class="edu-item">
+                            <div class="edu-degree">
+                                M.S. Chemical Engineering
+                            </div>
+                            <div class="edu-school">
+                                Mississippi State University
+                            </div>
+                            <div class="edu-gpa">
+                                GPA: 3.61 &nbsp;·&nbsp; 2016–2021
+                            </div>
+                        </div>
+                        <div class="edu-item">
+                            <div class="edu-degree">
+                                B.S. Chemical Engineering
+                            </div>
+                            <div class="edu-school">
+                                Mississippi State University
+                            </div>
+                            <div class="edu-gpa">
+                                GPA: 3.78 — Magna Cum Laude &nbsp;·&nbsp;
+                                2012–2016
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-card-title">Certifications</div>
+                        <div class="cert-badge">
+                            <div class="cert-icon">✦</div>
+                            <div class="cert-info">
+                                <div class="cert-name">
+                                    Appian Certified Lead Developer (L3)
+                                </div>
+                                <div class="cert-issuer">
+                                    Appian Corporation
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </section>
 
-                <div class="col-md-3">
-                  <a href="https://www.linkedin.com/in/daniel-krizak-6ab025115" target="_blank">LinkedIn</a><br>
+        <!-- EXPERIENCE -->
+        <section id="experience">
+            <div class="reveal">
+                <p class="section-label">// 02 — Experience</p>
+                <h2 class="section-title">Where I've built<br />& led.</h2>
+            </div>
+
+            <!-- 10Pearls -->
+            <div class="exp-item reveal">
+                <div class="exp-meta">
+                    <div class="exp-dates">03/2024 – Present</div>
+                    <div class="exp-company">10Pearls</div>
+                    <div class="exp-badge">Current</div>
                 </div>
-
-                <div class="col-md-3">
-                  <a href="https://github.com/dtkrizak" target="_blank">GitHub</a><br>
+                <div class="exp-content">
+                    <div class="exp-role">Appian Solution Consultant</div>
+                    <ul class="exp-bullets">
+                        <li>
+                            Designed Appian
+                            <strong>Web API and Integration</strong> solutions
+                            meeting functional, security, and performance
+                            requirements across external systems.
+                        </li>
+                        <li>
+                            Refactored critical network determination logic into
+                            <strong>reusable, encapsulated components</strong> —
+                            reducing defect risk and boosting maintainability
+                            across the platform.
+                        </li>
+                        <li>
+                            Built internal
+                            <strong>diagnostic tooling</strong> for root cause
+                            analysis supporting an Appian Web API handling
+                            ~<strong>20,000 daily transactions</strong> via a
+                            single-payload submission pattern.
+                        </li>
+                        <li>
+                            Owned
+                            <strong
+                                >code signing, packaging, and deployment
+                                readiness</strong
+                            >
+                            for multiple production releases serving
+                            approximately <strong>25,000 users</strong>.
+                        </li>
+                        <li>
+                            Championed documentation standards: enforced
+                            meaningful change logs, in-code comments, and
+                            feature docs to accelerate debugging and long-term
+                            maintainability.
+                        </li>
+                        <li>
+                            Provided
+                            <strong>technical leadership and mentorship</strong>
+                            — guiding developers through complex,
+                            business-critical features and coordinating across
+                            overlapping work streams.
+                        </li>
+                        <li>
+                            Played a key role resolving high-severity production
+                            incidents by leveraging deep application knowledge
+                            and coordinating with cross-functional teams.
+                        </li>
+                        <li>
+                            Leveraged <strong>local LLMs</strong> to develop an
+                            automated SQL validation tool, streamlining
+                            pre-release review while maintaining strict data
+                            privacy protocols.
+                        </li>
+                    </ul>
                 </div>
-              </div>
+            </div>
 
-          </div>
-          
-        </div>
-      </div>  
-    </section>
-    <!--/. Contact Section -->
+            <!-- Fortitude -->
+            <div class="exp-item reveal">
+                <div class="exp-meta">
+                    <div class="exp-dates">11/2023 – 03/2024</div>
+                    <div class="exp-company">Fortitude</div>
+                </div>
+                <div class="exp-content">
+                    <div class="exp-role">Appian Developer — Intermediate</div>
+                    <ul class="exp-bullets">
+                        <li>
+                            Conducted development across multiple
+                            <strong>cloud-based Appian applications</strong>:
+                            interfaces, process models, expression rules, CDTs,
+                            constants, data stores, and database views.
+                        </li>
+                        <li>
+                            Aided implementation of
+                            <strong>two-factor authentication</strong> for
+                            Appian Cloud instances, including updates to
+                            reference tables and user/group configuration.
+                        </li>
+                        <li>
+                            Updated PDF forms and XML with
+                            <strong>Adobe Experience Manager</strong> to meet
+                            client requirements and ensure proper data intake in
+                            Appian.
+                        </li>
+                        <li>
+                            Optimized the end-to-end
+                            <strong>data reporting pipeline</strong> using Excel
+                            macros to automatically structure and visualize raw
+                            Appian exports.
+                        </li>
+                        <li>
+                            Coordinated with QA, participated in daily
+                            stand-ups, sprint planning, and retrospectives to
+                            maintain continuous delivery cadence.
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-    <!-- Jquery -->
-    <script type="text/javascript" src="assets/js/jquery.js"></script>
-    
-    <!-- Bootstrap core js -->
-    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-    
-    <!--Scrolling Nav Javascript -->
-    <script type="text/javascript" src="assets/js/jquery.easing.min.js"></script>
-    <script type="text/javascript" src="assets/js/scrolling-nav.js"></script>
-    <script type="text/javascript" src="assets/js/timeline.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.mobile.custom.min.js"></script>
+            <!-- SkillStorm -->
+            <div class="exp-item reveal">
+                <div class="exp-meta">
+                    <div class="exp-dates">08/2021 – 11/2023</div>
+                    <div class="exp-company">SkillStorm</div>
+                </div>
+                <div class="exp-content">
+                    <div class="exp-role">
+                        Appian Level 2 Software Developer
+                    </div>
+                    <ul class="exp-bullets">
+                        <li>
+                            Completed a 12-week Appian training program; earned
+                            <strong>Appian Certified Senior Developer</strong>
+                            certification.
+                            <span class="inline-cert">✦ Certified</span>
+                        </li>
+                        <li>
+                            Spearheaded development of the main client module —
+                            refactoring legacy code to track client-professional
+                            interactions, including forms, process models,
+                            expression rules, decision tables, and constants.
+                        </li>
+                        <li>
+                            Reduced memory consumption on a key process from
+                            <strong>~20,000 AMUs to ~2,000 AMUs</strong> by
+                            modularizing large process models — significantly
+                            improving load balancing on process engines.
+                        </li>
+                        <li>
+                            Developed
+                            <strong>dynamic SAIL interfaces</strong> rendered
+                            from JSON templates with flexible field
+                            configuration for adaptable client deployments.
+                        </li>
+                        <li>
+                            Enhanced PDF conversion consistency via integration
+                            with the <strong>Adobe Acrobat Sign API</strong>.
+                        </li>
+                        <li>
+                            Automated release packaging using custom
+                            <strong>Selenium scripts</strong>, reducing manual
+                            overhead and accelerating the deployment pipeline.
+                        </li>
+                        <li>
+                            Created records based on views to improve search
+                            performance; implemented best practices using index
+                            functions and match statements over nested
+                            conditionals.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-  </body>
+        <!-- SKILLS -->
+        <section id="skills">
+            <div class="reveal">
+                <p class="section-label">// 03 — Skills</p>
+                <h2 class="section-title">Tools &amp; technologies.</h2>
+            </div>
+            <div class="skills-grid reveal">
+                <div class="skill-group">
+                    <div class="skill-group-title">Appian Platform</div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Appian 21.X–26.X</span>
+                        <span class="skill-tag">SAIL</span>
+                        <span class="skill-tag">Process Models</span>
+                        <span class="skill-tag">Web APIs</span>
+                        <span class="skill-tag">CDTs</span>
+                        <span class="skill-tag">Expression Rules</span>
+                        <span class="skill-tag">Data Stores</span>
+                        <span class="skill-tag">Integrations</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <div class="skill-group-title">Databases & Backend</div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MariaDB</span>
+                        <span class="skill-tag">SQLite</span>
+                        <span class="skill-tag">Oracle SQL</span>
+                        <span class="skill-tag">Stored Procedures</span>
+                        <span class="skill-tag">Database Views</span>
+                        <span class="skill-tag">SQL Optimization</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <div class="skill-group-title">Languages</div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">VBA</span>
+                        <span class="skill-tag">Fortran</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <div class="skill-group-title">Frameworks & Libraries</div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express</span>
+                        <span class="skill-tag">Mocha</span>
+                        <span class="skill-tag">Selenium</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <div class="skill-group-title">Tools & Platforms</div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Jira</span>
+                        <span class="skill-tag">Confluence</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">Adobe Experience Manager</span>
+                        <span class="skill-tag">Acrobat Sign API</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <div class="skill-group-title">Other</div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Local LLMs</span>
+                        <span class="skill-tag">Technical Leadership</span>
+                        <span class="skill-tag">Release Management</span>
+                        <span class="skill-tag">Incident Response</span>
+                        <span class="skill-tag">Documentation</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact">
+            <div class="reveal">
+                <p class="section-label">// 04 — Contact</p>
+                <h2 class="section-title">Let's connect.</h2>
+            </div>
+            <div class="contact-layout reveal">
+                <div class="contact-links">
+                    <a
+                        href="https://www.linkedin.com/in/daniel-krizak-6ab025115"
+                        target="_blank"
+                        class="contact-row"
+                    >
+                        <span class="contact-icon">in</span>
+                        <div>
+                            <span class="contact-label">LinkedIn</span>
+                            <span class="contact-value"
+                                >daniel-krizak-6ab025115</span
+                            >
+                        </div>
+                    </a>
+                    <a
+                        href="https://github.com/dtkrizak"
+                        target="_blank"
+                        class="contact-row"
+                    >
+                        <span class="contact-icon">⌥</span>
+                        <div>
+                            <span class="contact-label">GitHub</span>
+                            <span class="contact-value"
+                                >github.com/dtkrizak</span
+                            >
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="footer-text">
+                © 2026 Daniel Krizak<span>.</span> All rights reserved.
+            </div>
+        </footer>
+
+        <!--Scrolling Nav Javascript -->
+        <script
+            type="text/javascript"
+            src="assets/js/scrolling-nav.js"
+        ></script>
+    </body>
 </html>
